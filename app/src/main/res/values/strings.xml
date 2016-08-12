@@ -1,8 +1,17 @@
 <resources>
-    <string name="app_name">Tencom</string>
+    <string name="app_name">Bencom</string>
+    <string name="bencom">Bencom</string>
+    <string name="bencom_desc">Bending and Compressive Strength</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <string name="notifications">Notifications</string>
+    <string name="samples_storage">Sample Storage</string>
+    <string name="compressive_test">Compressive Test</string>
+    <string name="bending_test">Bending Test</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
 </resources>

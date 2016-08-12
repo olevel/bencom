@@ -11,12 +11,23 @@
     tools:context="com.hacker.olevel.tencom.MainActivity">
 
     <TextView
+        android:id="@+id/content_main_bencom_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="@+id/content_main"
+        android:text="@string/bencom"
+        android:textSize="42sp"
         app:layout_constraintLeft_toLeftOf="@+id/content_main"
+        app:layout_constraintTop_toTopOf="@+id/content_main"
         app:layout_constraintRight_toRightOf="@+id/content_main"
-        app:layout_constraintTop_toTopOf="@+id/content_main" />
+        app:layout_constraintBottom_toBottomOf="@+id/content_main" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bencom_desc"
+        app:layout_constraintLeft_toLeftOf="@+id/content_main"
+        app:layout_constraintTop_toBottomOf="@+id/content_main_bencom_textview"
+        app:layout_constraintRight_toRightOf="@+id/content_main"
+        app:layout_constraintBottom_toBottomOf="@+id/content_main" />
 
 </android.support.constraint.ConstraintLayout>
