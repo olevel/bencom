@@ -2,20 +2,24 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
+
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_notifications"
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/notifications" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_flow_test"
+            android:title="@string/flow_test" />
+        <item
+            android:id="@+id/nav_samples_storage"
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/samples_storage" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_compressive_test"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/compressive_test" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_bending_test"
             android:icon="@drawable/ic_menu_manage"
             android:title="@string/bending_test" />
     </group>
@@ -23,11 +27,11 @@
     <item android:title="@string/action_settings">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_profile"
                 android:icon="@drawable/ic_menu_share"
                 android:title="@string/profile" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_logout"
                 android:icon="@drawable/ic_menu_send"
                 android:title="@string/logout" />
         </menu>

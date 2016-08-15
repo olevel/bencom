@@ -9,9 +9,13 @@
     <string name="action_settings">Settings</string>
 
     <string name="notifications">Notifications</string>
+    <string name="flow_test">Flow test</string>
     <string name="samples_storage">Sample Storage</string>
     <string name="compressive_test">Compressive Test</string>
     <string name="bending_test">Bending Test</string>
     <string name="profile">Profile</string>
     <string name="logout">Logout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
